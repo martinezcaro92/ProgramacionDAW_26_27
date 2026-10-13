@@ -1,0 +1,20 @@
+// ==========================================
+// Algoritmo: Ejercicio
+// Calcula la nota de un estudiante según dos examenes y una parte práctica
+// Entrada: examen1, examen2 y practica (Real)
+// Salida:  nota (Real)
+// ==========================================
+
+Algoritmo Ejercicio31
+	Definir examen1, examen2, practica, nota Como Real;
+	Escribir "Inserte la calificación del examen 1: ";
+	Leer examen1;
+	Escribir "Inserte la calificación del examen 2: ";
+	Leer examen2;
+	Escribir "Inserte la calificación de la práctica: ";
+	Leer practica;
+	// La nota final es una ponderación donde el examen 1 cuenta el
+	// 40%, el examen 2 otro 40% y la parte practica un 20%
+	nota <- examen1*0.4 + examen2*0.4 + practica*0.2;
+	Escribir "La nota obtenida es: ", nota;
+FinAlgoritmo
