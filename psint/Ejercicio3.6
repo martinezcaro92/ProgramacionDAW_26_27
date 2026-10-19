@@ -1,0 +1,32 @@
+Proceso CalculadoraConMenu
+	Definir opcion Como Entero;
+	Definir n1, n2, aux Como Real;
+	
+	// Meto en variables los valores introducidos por la Consola
+	Escribir "Introduzca un valor";
+	Leer n1;
+	Escribir "Introduzca otro valor";
+	Leer n2;
+	Escribir "Introduzca una operación (1. Sumar, 2. Restar, 3. Multiplicar, 4. Dividir, 5. Resto)";
+	Leer opcion;
+	
+	//Según los datos introducidos por la Consola, realizaré la operación pertinente
+	Segun opcion Hacer
+		1:  Escribir "El resultado de la suma es: ", n1+n2; 
+		2:  aux <- n1-n2;
+			Escribir "El resultado de la resta es: ", aux;
+		3:  Escribir "El resultado de la multiplicación es: ", n1*n2;
+		4:  Si n2=0 Entonces
+				Escribir "No se puede realizar la operación de división";
+			SiNo
+				Escribir "El resultado de la división es: ", n1/n2;
+			FinSi
+		5:  Si n2=0 Entonces
+				Escribir "No se puede realizar la operación de división";
+			SiNo
+				Escribir "El resto de la división es: ", n1%n2;
+			FinSi
+		De Otro Modo: Escribir "Opción no válida";
+	FinSegun
+	
+FinProceso
