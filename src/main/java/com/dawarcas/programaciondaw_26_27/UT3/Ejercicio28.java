@@ -8,7 +8,9 @@ package com.dawarcas.programaciondaw_26_27.UT3;
  *
  * @author josemanuel
  */
-public class Temperatura {
+// En la resolución del ejercicio, el enunciado indica que se debe de llamar Temperatura
+//public class Temperatura {
+public class Ejercicio28 {
     public static void main(String[] args) {
         double celsius = 36.6;
         double farenheit = celsius * 9 / 5 + 32;

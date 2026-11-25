@@ -22,23 +22,23 @@ public class Ejercicio46 {
         
         // Apartado 1
         List<String> canciones = new ArrayList<>();
-        List<String> generos = new ArrayList<>();
+        List<Genero> generos = new ArrayList<>();
         
         // Apartado 2
         canciones.add("Luces de neon");
-        generos.add(Genero.POP.name());
+        generos.add(Genero.POP);
         
         canciones.add("Carretera sin fin");
-        generos.add(Genero.ROCK.name());
+        generos.add(Genero.ROCK);
         
         canciones.add("Tardes de lluvia");
-        generos.add(Genero.INDIE.name());
+        generos.add(Genero.INDIE);
         
         canciones.add("Pulso digital");
-        generos.add(Genero.ELECTRONICA.name());
+        generos.add(Genero.ELECTRONICA);
         
         canciones.add("Verano eteno");
-        generos.add(Genero.POP.name());
+        generos.add(Genero.POP);
         
         System.out.println("Playlist: " );
         
